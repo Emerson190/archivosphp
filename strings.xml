@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GR19001ConsumoWebPrueba1</string>
+    <string name="action_settings">Settings</string>
+    <string name="codigojuguete">Ingrese codigo de juguete</string>
+    <string name="idtipojuguete">Ingrese el tipo de juguete</string>
+    <string name="nomjuguete">Ingrese el nombre del juguete</string>
+    <string name="resultado">El menor costo del juguete</string>
+    <string name="servicioPHP">Servidor Php </string>
+</resources>
