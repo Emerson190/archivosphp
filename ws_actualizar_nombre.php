@@ -4,7 +4,7 @@ $nomproducto=$_REQUEST['nomproducto'];
 ///variable
 $servidor="localhost";
 $usuario="root";
-$baseDatos="parcial02";
+$baseDatos="parcial01";
 $password="";
 $respuesta=array('resultado'=>0);
 json_encode($respuesta);
@@ -21,5 +21,7 @@ if ($conn->query($sql) === TRUE) {
  echo "Error: " . $sql . "<br>" . $conn->error;
 }
 echo $nomproducto;
+$nombreString=array('nombre'=>$nomproducto);
+echo json_encode($nombreString);
 $conn->close();
 ?>
